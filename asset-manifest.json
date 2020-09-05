@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/colorgame/static/css/main.68082359.chunk.css",
-    "main.js": "/colorgame/static/js/main.4f19cd54.chunk.js",
-    "main.js.map": "/colorgame/static/js/main.4f19cd54.chunk.js.map",
-    "runtime-main.js": "/colorgame/static/js/runtime-main.f4e44bf4.js",
-    "runtime-main.js.map": "/colorgame/static/js/runtime-main.f4e44bf4.js.map",
-    "static/css/2.c53ea7bd.chunk.css": "/colorgame/static/css/2.c53ea7bd.chunk.css",
-    "static/js/2.cc8dd2b5.chunk.js": "/colorgame/static/js/2.cc8dd2b5.chunk.js",
-    "static/js/2.cc8dd2b5.chunk.js.map": "/colorgame/static/js/2.cc8dd2b5.chunk.js.map",
-    "index.html": "/colorgame/index.html",
-    "precache-manifest.705c170182f764eff85963b11554ff5a.js": "/colorgame/precache-manifest.705c170182f764eff85963b11554ff5a.js",
-    "service-worker.js": "/colorgame/service-worker.js",
-    "static/css/2.c53ea7bd.chunk.css.map": "/colorgame/static/css/2.c53ea7bd.chunk.css.map",
-    "static/css/main.68082359.chunk.css.map": "/colorgame/static/css/main.68082359.chunk.css.map",
-    "static/js/2.cc8dd2b5.chunk.js.LICENSE.txt": "/colorgame/static/js/2.cc8dd2b5.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/colorgame/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/react-colorgame/static/css/main.68082359.chunk.css",
+    "main.js": "/react-colorgame/static/js/main.591103c9.chunk.js",
+    "main.js.map": "/react-colorgame/static/js/main.591103c9.chunk.js.map",
+    "runtime-main.js": "/react-colorgame/static/js/runtime-main.9c462a44.js",
+    "runtime-main.js.map": "/react-colorgame/static/js/runtime-main.9c462a44.js.map",
+    "static/css/2.e7aee22f.chunk.css": "/react-colorgame/static/css/2.e7aee22f.chunk.css",
+    "static/js/2.79528b35.chunk.js": "/react-colorgame/static/js/2.79528b35.chunk.js",
+    "static/js/2.79528b35.chunk.js.map": "/react-colorgame/static/js/2.79528b35.chunk.js.map",
+    "index.html": "/react-colorgame/index.html",
+    "precache-manifest.346812f5a00c6e3f9a2e7309c6c6b71b.js": "/react-colorgame/precache-manifest.346812f5a00c6e3f9a2e7309c6c6b71b.js",
+    "service-worker.js": "/react-colorgame/service-worker.js",
+    "static/css/2.e7aee22f.chunk.css.map": "/react-colorgame/static/css/2.e7aee22f.chunk.css.map",
+    "static/css/main.68082359.chunk.css.map": "/react-colorgame/static/css/main.68082359.chunk.css.map",
+    "static/js/2.79528b35.chunk.js.LICENSE.txt": "/react-colorgame/static/js/2.79528b35.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/react-colorgame/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4e44bf4.js",
-    "static/css/2.c53ea7bd.chunk.css",
-    "static/js/2.cc8dd2b5.chunk.js",
+    "static/js/runtime-main.9c462a44.js",
+    "static/css/2.e7aee22f.chunk.css",
+    "static/js/2.79528b35.chunk.js",
     "static/css/main.68082359.chunk.css",
-    "static/js/main.4f19cd54.chunk.js"
+    "static/js/main.591103c9.chunk.js"
   ]
 }
