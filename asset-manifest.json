@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/colorgame/static/css/main.68082359.chunk.css",
+    "main.js": "/colorgame/static/js/main.4f19cd54.chunk.js",
+    "main.js.map": "/colorgame/static/js/main.4f19cd54.chunk.js.map",
+    "runtime-main.js": "/colorgame/static/js/runtime-main.f4e44bf4.js",
+    "runtime-main.js.map": "/colorgame/static/js/runtime-main.f4e44bf4.js.map",
+    "static/css/2.c53ea7bd.chunk.css": "/colorgame/static/css/2.c53ea7bd.chunk.css",
+    "static/js/2.cc8dd2b5.chunk.js": "/colorgame/static/js/2.cc8dd2b5.chunk.js",
+    "static/js/2.cc8dd2b5.chunk.js.map": "/colorgame/static/js/2.cc8dd2b5.chunk.js.map",
+    "index.html": "/colorgame/index.html",
+    "precache-manifest.705c170182f764eff85963b11554ff5a.js": "/colorgame/precache-manifest.705c170182f764eff85963b11554ff5a.js",
+    "service-worker.js": "/colorgame/service-worker.js",
+    "static/css/2.c53ea7bd.chunk.css.map": "/colorgame/static/css/2.c53ea7bd.chunk.css.map",
+    "static/css/main.68082359.chunk.css.map": "/colorgame/static/css/main.68082359.chunk.css.map",
+    "static/js/2.cc8dd2b5.chunk.js.LICENSE.txt": "/colorgame/static/js/2.cc8dd2b5.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/colorgame/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4e44bf4.js",
+    "static/css/2.c53ea7bd.chunk.css",
+    "static/js/2.cc8dd2b5.chunk.js",
+    "static/css/main.68082359.chunk.css",
+    "static/js/main.4f19cd54.chunk.js"
+  ]
+}
