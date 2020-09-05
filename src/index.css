@@ -1,0 +1,195 @@
+html {
+  --background: #eee;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --light: rgba(255, 255, 255, 0.9);
+  --text: rgba(0, 0, 0, 0.8);
+  --icon: #2286d0;
+  --header: #f3f4f5;
+  --header-border: #d4d4d5;
+  --toggle: #2cbb3d;
+}
+
+html[data-theme="dark"] {
+  --background: #222;
+  --shadow: rgba(0, 0, 0, 0.9);
+  --light: rgba(100, 100, 100, 0.5);
+  --text: rgba(255, 255, 255, 0.8);
+  --icon: #54c7ff;
+  --header: #333;
+  --header-border: #444;
+  --toggle: #2cbb3d;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background) !important;
+  color: var(--text) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* GENERAL */
+.react-sharing-button__link svg {
+  display: none;
+}
+
+.ui.block.header,
+.ui.card {
+  background-color: var(--header);
+  border-color: var(--header-border);
+}
+
+.ui.header,
+.ui.checkbox label,
+.ui.list > .item .header,
+.ui.list > .item .description,
+.ui.checkbox.disabled label,
+.ui.card > .content > .header,
+.ui.card > .content > .description,
+.ui.card .meta {
+  color: var(--text) !important;
+}
+
+.ui.card .meta {
+  opacity: 0.6;
+}
+
+a,
+.ui.checkbox.checked label {
+  color: var(--icon) !important;
+}
+
+.ui.toggle.checkbox input:checked ~ label:before,
+.ui.toggle.checkbox input:focus:checked ~ label:before {
+  background-color: var(--toggle) !important;
+}
+
+/* APP */
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* LAYOUT & SPACE */
+.mt-s {
+  margin-top: 16px !important;
+}
+
+.mt-l {
+  margin-top: 48px !important;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+.hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  align-self: center;
+  margin: 0 auto 20vh auto;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu {
+  min-height: 56px !important;
+}
+
+/* NEWMORPHIC BOX */
+.neumorphic-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  height: 40px;
+  background-color: var(--background);
+  border-radius: 50px;
+  box-shadow: 6px 6px 8px 0 var(--shadow), -4px -4px 6px 0 var(--light);
+  color: var(--icon) !important;
+}
+
+.neumorphic-box .icon {
+  height: initial !important;
+}
+
+.neumorphic-box:hover,
+.neumorphic-box.active {
+  box-shadow: inset 6px 6px 8px var(--shadow), inset -4px -4px 6px var(--light);
+}
+
+.neumorphic-box:hover .icon {
+  text-shadow: 0px 0px 15px var(--icon);
+}
+
+/* CONTENT */
+#content {
+  flex: 1;
+  display: flex;
+  margin-bottom: 8px; /* always display footer without overlapping */
+}
+
+/* GAME */
+#game {
+  display: flex;
+  padding: 0 !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* BOX */
+.box {
+  width: 100%;
+  height: 5%;
+  border-radius: 12px;
+  box-shadow: 3px 3px 8px var(--shadow);
+}
+
+.box.deleted {
+  visibility: hidden;
+}
+
+/* LOADING */
+.spin {
+  border: 10px var(--text) solid;
+  border-right-color: transparent;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
