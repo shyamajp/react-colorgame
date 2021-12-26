@@ -1,7 +1,7 @@
 {
   "short_name": "ColorGame",
   "name": "simple color game",
-  "start_url": "https://color-game-ee.herokuapp.com",
+  "start_url": "https://shyamajp.github.io/react-colorgame/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
