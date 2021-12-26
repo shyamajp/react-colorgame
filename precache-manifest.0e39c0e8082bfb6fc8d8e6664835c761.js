@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "141d68a63a197523036332c40e6b452f",
+    "revision": "dd792daead741cef27e8258de6d15094",
     "url": "/react-colorgame/index.html"
   },
   {
-    "revision": "01e0335ae8650cbddbb4",
-    "url": "/react-colorgame/static/css/2.e7aee22f.chunk.css"
+    "revision": "d82c823b5ebb9412bff8",
+    "url": "/react-colorgame/static/css/2.72dd6a3c.chunk.css"
   },
   {
-    "revision": "7dbbb26b9a695ca5b25b",
-    "url": "/react-colorgame/static/css/main.68082359.chunk.css"
+    "revision": "cf95f49396498c15b4a9",
+    "url": "/react-colorgame/static/css/main.17167152.chunk.css"
   },
   {
-    "revision": "01e0335ae8650cbddbb4",
-    "url": "/react-colorgame/static/js/2.79528b35.chunk.js"
+    "revision": "d82c823b5ebb9412bff8",
+    "url": "/react-colorgame/static/js/2.828cec65.chunk.js"
   },
   {
-    "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/react-colorgame/static/js/2.79528b35.chunk.js.LICENSE.txt"
+    "revision": "f723c00e170ec37680e58c8abeaecf00",
+    "url": "/react-colorgame/static/js/2.828cec65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7dbbb26b9a695ca5b25b",
-    "url": "/react-colorgame/static/js/main.591103c9.chunk.js"
+    "revision": "cf95f49396498c15b4a9",
+    "url": "/react-colorgame/static/js/main.5fccba58.chunk.js"
   },
   {
     "revision": "15c4b600b443fcfe1775",
