@@ -1,6 +1,6 @@
 import "../index.css";
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Header from "./Header";
 import Game from "./Game";
@@ -14,15 +14,11 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Header />
         <div id="content" className="ui grid container">
-          <Route exact path="/">
-            <Game />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/settings">
-            <Settings />
-          </Route>
+          <Routes>
+            <Route exact path="/" element={<Game />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
         </div>
         <Footer />
       </Router>

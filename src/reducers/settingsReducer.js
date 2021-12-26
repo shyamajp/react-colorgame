@@ -5,7 +5,7 @@ const initialState = {
   nightMode: false,
 };
 
-export default function (state = initialState, action) {
+function settingsReducer(state = initialState, action) {
   switch (action.type) {
     case CHANGE_LANGUAGE:
       return { ...state, language: action.payload };
@@ -15,3 +15,5 @@ export default function (state = initialState, action) {
       return state;
   }
 }
+
+export default settingsReducer;

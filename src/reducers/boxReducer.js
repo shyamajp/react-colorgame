@@ -21,15 +21,12 @@ const initialState = shuffle([
 ]);
 
 // action.payload - id of clicked box.
-export default function (state = initialState, action) {
+function boxReducer(state = initialState, action) {
   switch (action.type) {
     case CHANGE_BOX_STATE:
       // if it is the lightest of the remainings, deleted should become true
       const prevBox = state.find((b) => action.payload - 1 === b.id); // most recently deleted box
-      if (
-        action.payload === 0 ||
-        (action.payload > 0 && prevBox["deleted"] === true)
-      ) {
+      if (action.payload === 0 || (action.payload > 0 && prevBox["deleted"] === true)) {
         return state.map((b) => {
           return b.id === action.payload ? { ...b, deleted: true } : b;
         });
@@ -42,3 +39,5 @@ export default function (state = initialState, action) {
       return state;
   }
 }
+
+export default boxReducer;

@@ -5,7 +5,7 @@ const initialState = {
   endAt: null,
 };
 
-export default function (state = initialState, action) {
+function timerReducer(state = initialState, action) {
   switch (action.type) {
     case START_TIMER:
       return { ...state, startAt: action.payload };
@@ -17,3 +17,5 @@ export default function (state = initialState, action) {
       return state;
   }
 }
+
+export default timerReducer;
