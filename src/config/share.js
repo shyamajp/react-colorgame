@@ -1,4 +1,4 @@
-const url = "https://meripirn.github.io/colorgame/";
+const url = "https://shyamajp.github.io/react-colorgame/";
 
 export const twitter = (time) => {
   return {
